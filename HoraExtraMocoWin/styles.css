@@ -15,6 +15,15 @@ body{
     margin: auto;
 }
 
+/*=== TITLES ===*/
+h2{
+    margin-top: 3.2rem;
+    margin-bottom: 0.8rem;
+    color: #363f5f;
+
+    
+}
+
 /*=== HEADER ===*/
 header{
     background: #2D4A22;
@@ -34,6 +43,7 @@ header{
 
 #balance h2{
     color: white;
+    margin-top: 0rem;
 }
 
 
