@@ -15,13 +15,6 @@ body{
     margin: auto;
 }
 
-/*=== TITLES ===*/
-H2{
-    margin-top: 3.2rem;
-    margin-bottom: 0.8rem;
-    color: #363F5F;
-}
-
 /*=== HEADER ===*/
 header{
     background: #2D4A22;
@@ -39,7 +32,10 @@ header{
     margin-top: -8rem;
 }
 
-#balance
+#balance h2{
+    color: white;
+}
+
 
 /*=== TRANSACTION ===*/
 
