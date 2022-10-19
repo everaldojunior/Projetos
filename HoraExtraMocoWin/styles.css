@@ -1,4 +1,8 @@
 /*=== GLOBAL ===*/
+:root {
+    --dark-blue: #363f5f;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -19,9 +23,9 @@ body{
 h2{
     margin-top: 3.2rem;
     margin-bottom: 0.8rem;
-    color: #363f5f;
+    color: var (--dark-blue);
 
-    
+    font-weight: normal;
 }
 
 /*=== HEADER ===*/
@@ -47,8 +51,50 @@ header{
 }
 
 
+/*=== CARDS ===*/
+.card{
+    background: white;
+    padding: 1.5rem 2rem;
+    border-radius: 0.25rem;
+
+    margin-bottom: 2rem;
+
+    color: var(--dark-blue);
+    }
+
+    .card h3{
+        font-weight: normal;
+        font-size: 1rem;
+    }
+
+    .card p{
+        font-size: 2rem;
+        line-height: 3rem;
+        margin-top: 1rem;
+    }
+
+    .card.green {
+        
+    }
+
 /*=== TRANSACTION ===*/
 
+/*=== TABLE ===*/
+#data-table{
+    width: 100%;
+    border-spacing: 0 0.5rem;
+}
+
+table th{
+    background: white;
+    opacity: 0.6;
+    
+    color: #969cb3;
+}
+
+table td{
+    background: white;
+}
 
 /*=== FOOTER ===*/
 footer{
