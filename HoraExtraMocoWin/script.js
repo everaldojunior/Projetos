@@ -1,13 +1,9 @@
-function calcPcr(x,y)  {
+function calcPct (x, y){
+    
+    (x / y) * 100;
+    
 
-    retorn = (x / y) * 100
+    console.log("Você tem " + resultado + "h de hora extra" );
 }
 
-let x = 40;
-let y = 10;
-
-let pct = calcPcr(x,y);
-
-console.log(pct)
-
-//console.log('$(pct)% de $(x) é $(y)');
+horaExtra(8, 12, 14, 18)
